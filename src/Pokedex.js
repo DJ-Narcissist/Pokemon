@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Pokecard from "./Pokecard";
 
 const Pokedex = ({ pokemon }) => {
@@ -10,7 +10,7 @@ const Pokedex = ({ pokemon }) => {
                 id={p.id}
                 name={p.name}
                 type={p.type}
-                base_XP={p.base_XP}
+                base_experience ={p.base_experience}
                 />
             ))}
         </div>
