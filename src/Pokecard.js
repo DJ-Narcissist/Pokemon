@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 
 const Pokecard = ({ id, name, type, base_experience }) => {
     const imgUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
